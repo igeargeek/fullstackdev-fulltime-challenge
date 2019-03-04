@@ -42,15 +42,18 @@ There are 3 sizes : `S (#1, #4, #7, #10), M (#2, #5, #8, #11) and L (#3, #6, #9,
        - [cypress](https://www.cypress.io/)
        - [Robot Framework](https://robotframework.org/)
        - [katalon](https://www.katalon.com/)
-    - Real-time available checking 
+    - Real time checked locker
        - If other user select locker, locker must lock (You can't select locker) until other done process
     
 - Scoring criteria
-   - Frontend - Must have!!! : 35 score
-   - Backend - Must have!!! : 35 score
-   - Database - Must have!!! : 10 score
-   - Deployment - Must have!!! : 10 score
-   - Bonus : 10 score
+
+    |Task|Must have|Score|
+    |-|-|-|
+    |Frontend|:white_check_mark:|35|
+    |Backend|:white_check_mark:|35|
+    |Database|:white_check_mark:|10|
+    |Deployment|:white_check_mark:|10|
+    |Bonus|:white_large_square:|10|
 
 
 **Test cases**  
