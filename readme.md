@@ -3,9 +3,9 @@ I GEAR GEEK : Coin Locker (コインロッカー)
 
 :warning: Please follow these conditions before code!
 - Coin Locker has only 1 locker and 12 units. 
-There are 3 sizes : S (1, 4, 7, 10), M (2, 5, 8, 11) and L (3, 6, 9, 12).
+There are 3 sizes : `S (#1, #4, #7, #10), M (#2, #5, #8, #11) and L (#3, #6, #9, #12)`.
 
-    *This is a simulation of coin locker (Ex. Size of `1` is `S` and size of `12` is `L`)*
+    *This is a simulation of coin locker (Ex. Size of `#1` is `S` and size of `#12` is `L`)*
 
     |S|M|L|
     |-|-|-|
@@ -24,7 +24,7 @@ There are 3 sizes : S (1, 4, 7, 10), M (2, 5, 8, 11) and L (3, 6, 9, 12).
 
 - User can insert coin : `1 THB, 2 THB, 5 THB and 10 THB`
 - User can insert bill : `20 THB, 50 THB, 100 THB, 500 THB and 1000 THB`
-- Can't select same locker with other user in `Realtime`. (`User A` select unit `#1` on another page then `User B` will see unit `#1` is not available to select without refresh page.)
+- Can't select same locker with other user in `Realtime`. (`User A` select unit of `#1` on another page then `User B` will see unit of `#1` is not available to select without refresh page.)
 - :+1: Design User Interface (UI) of coin locker based on good user experience (UX). 
 - :+1: Focus on good [code quality](https://medium.com/@mkt_43322/why-is-code-quality-such-a-big-deal-for-developers-91bdace85d44).
   - Readability, consistency — how easy it is to read and understand sections of the code; this includes code clarity, simplicity, and documentation.
@@ -59,11 +59,11 @@ There are 3 sizes : S (1, 4, 7, 10), M (2, 5, 8, 11) and L (3, 6, 9, 12).
 
 |   | Story | Unit selected | Can select? | Duration of deposit (Minutes) | Insert | Charge | Change | Got item back? |
 |---|-------|------------------|------------|------------|-----------|----------|------------|------------|
-| 1 |User select unit of #1 and insert 1,000 baht for charge |1|true|60|1000|50|500 x 1, 100 x 4, 50 x 1|true
-| 2 |User select unit of #1 and insert 100 baht for charge |1|true|61|100|75|20 x 1, 5 x 1|true
-| 3 |User select unit of #2 and insert 100 baht for charge |2|true|120|100|150|100 x 1|false
-| 4 |User select unit of #2 but this unit has been used by another user |2|false|-|-|-|-|-
-| 5 |User select unit of #12 and insert 400 baht for charge|12|true|145|400|400|0|true
+| 1 |User select unit of `#1` and insert 1,000 baht for charge |1|true|60|1000|50|500 x 1, 100 x 4, 50 x 1|true
+| 2 |User select unit of `#1` and insert 100 baht for charge |1|true|61|100|75|20 x 1, 5 x 1|true
+| 3 |User select unit of `#2` and insert 100 baht for charge |2|true|120|100|150|100 x 1|false
+| 4 |User select unit of `#2` but this unit has been used by another user |2|false|-|-|-|-|-
+| 5 |User select unit of `#12` and insert 400 baht for charge|12|true|145|400|400|0|true
 
 :ok_hand: Acceptance agreement
 ---
