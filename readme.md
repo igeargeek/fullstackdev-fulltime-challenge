@@ -33,7 +33,7 @@ There are 3 sizes : `S (#1, #4, #7, #10), M (#2, #5, #8, #11) and L (#3, #6, #9,
     - CSS Framework : Bootstrap
   - Frontend : React, Vue
   - API (RESTful API or [GraphQL](https://graphql.org/)) : Laravel (PHP) or Node.js
-  - Database : MongoDB (We recommend [MongoDB Atlas](https://www.mongodb.com/cloud/atlas))
+  - Database : mariaDB or MongoDB (We recommend [MongoDB Atlas](https://www.mongodb.com/cloud/atlas))
 - Bonus point
     - Unit and Integration testing such as
         - [phpunit](https://phpunit.de/)
