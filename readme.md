@@ -42,6 +42,13 @@ There are 3 sizes : `S (#1, #4, #7, #10), M (#2, #5, #8, #11) and L (#3, #6, #9,
     - [cypress](https://www.cypress.io/)
     - [Robot Framework](https://robotframework.org/)
     - [katalon](https://www.katalon.com/)
+    
+- Scoring criteria
+   - Frontend - Must have!!! : 35 score
+   - Backend - Must have!!! : 35 score
+   - Database - Must have!!! : 10 score
+   - Deployment - Must have!!! : 10 score
+   - Bonus : 10 score
 
 
 **Test cases**  
