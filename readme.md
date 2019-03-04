@@ -5,7 +5,7 @@ I GEAR GEEK : Coin Locker (コインロッカー)
 - Coin Locker has only 1 locker and 12 units. 
 There are 3 sizes : S (1, 4, 7, 10), M (2, 5, 8, 11) and L (3, 6, 9, 12).
 
-    *This is a simulation of coin locker (Ex. Unit of #1 is `S` size)*
+    *This is a simulation of coin locker (Ex. Size of `1` is `S` and size of `12` is `L`)*
 
     |S|M|L|
     |-|-|-|
