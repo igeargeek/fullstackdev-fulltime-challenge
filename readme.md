@@ -42,7 +42,7 @@ There are 3 sizes : `S (#1, #4, #7, #10), M (#2, #5, #8, #11) and L (#3, #6, #9,
        - [cypress](https://www.cypress.io/)
        - [Robot Framework](https://robotframework.org/)
        - [katalon](https://www.katalon.com/)
-    - Real time checked locker
+    - Real-time available checking 
        - If other user select locker, locker must lock (You can't select locker) until other done process
     
 - Scoring criteria
