@@ -3,7 +3,7 @@ I GEAR GEEK : Coin Locker (コインロッカー)
 
 :warning: Please follow these conditions before code!
 - Coin Locker has only 1 locker and 12 units. 
-There are 3 sizes : S (:one:, :four:, :seven:, :one::zero:), M (:two:, :five:, :eight:, :one::one:) and L (:three:, :six:, :nine:, :one::two:).
+There are 3 sizes : S (1, 4, 7, 10), M (2, 5, 8, 11) and L (3, 6, 9, 12).
 
     *This is a simmulation of coin locker (Ex. Unit of #1 is `S` size)*
 
@@ -45,7 +45,7 @@ There are 3 sizes : S (:one:, :four:, :seven:, :one::zero:), M (:two:, :five:, :
     - Real time checked locker
        - If other user select locker, locker must lock (You can't select locker) until other done process
     
-- :checkered_flag: Scoring criteria
+- Scoring criteria
 
     |Task|Must have|Score|
     |-|-|-|
