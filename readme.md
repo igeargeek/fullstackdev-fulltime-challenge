@@ -22,7 +22,8 @@ There are 3 sizes : `S (#1, #4, #7, #10), M (#2, #5, #8, #11) and L (#3, #6, #9,
     |M|100 THB|50 THB|
     |L|200 THB|100 THB|
 
-- User can insert coin : `1 THB, 2 THB, 5 THB and 10 THB`, insert bill : `20 THB, 50 THB, 100 THB, 500 THB and 1000 THB`
+- User can insert coin : `1 THB, 2 THB, 5 THB and 10 THB`
+- User can insert bill : `20 THB, 50 THB, 100 THB, 500 THB and 1000 THB`
 - Design User Interface (UI) of coin locker based on good user experience (UX). 
 - Focus on good [code quality](https://medium.com/@mkt_43322/why-is-code-quality-such-a-big-deal-for-developers-91bdace85d44).
   - Readability, consistency — how easy it is to read and understand sections of the code; this includes code clarity, simplicity, and documentation.
