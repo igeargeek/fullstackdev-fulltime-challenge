@@ -1,22 +1,22 @@
 I GEAR GEEK : Coin Locker (コインロッカー)
 ===
 
-Please follow these conditions before code!
+:warning: Please follow these conditions before code!
 - Coin Locker has only 1 locker and 12 units. 
-There are 3 sizes : `S (#1, #4, #7, #10), M (#2, #5, #8, #11) and L (#3, #6, #9, #12).`
+There are 3 sizes : S (:one:, :four:, :seven:, :one::zero:), M (:two:, :five:, :eight:, :one::one:) and L (:three:, :six:, :nine:, :one::two:).
 
     *This is a simmulation of coin locker (Ex. Unit of #1 is `S` size)*
 
     |S|M|L|
     |-|-|-|
-    |1|2|3|
-    |4|5|6|
-    |7|8|9|
-    |10|11|12|
+    |:one:|:two:|:three:|
+    |:four:|:five:|:six:|
+    |:seven:|:eight:|:nine:|
+    |:one::zero:|:one::one:|:one::two:|
     
 - Charge of locker usage (Based on unit size).
     
-    | |first 60 minutes|next minutes|
+    | |:clock1: first 60 minutes| :clock2: next minutes|
     |-|-|-|
     |S|50 THB|25 THB|
     |M|100 THB|50 THB|
@@ -24,8 +24,8 @@ There are 3 sizes : `S (#1, #4, #7, #10), M (#2, #5, #8, #11) and L (#3, #6, #9,
 
 - User can insert coin : `1 THB, 2 THB, 5 THB and 10 THB`
 - User can insert bill : `20 THB, 50 THB, 100 THB, 500 THB and 1000 THB`
-- Design User Interface (UI) of coin locker based on good user experience (UX). 
-- Focus on good [code quality](https://medium.com/@mkt_43322/why-is-code-quality-such-a-big-deal-for-developers-91bdace85d44).
+- :+1: Design User Interface (UI) of coin locker based on good user experience (UX). 
+- :+1: Focus on good [code quality](https://medium.com/@mkt_43322/why-is-code-quality-such-a-big-deal-for-developers-91bdace85d44).
   - Readability, consistency — how easy it is to read and understand sections of the code; this includes code clarity, simplicity, and documentation.
   - Predictability, reliability, and robustness — software behavior should be predictable, and not prone to hidden bugs.
   - Maintainability and extensibility — fixing, updating and improving software should be as simple as possible, not inherently complex.
@@ -45,7 +45,7 @@ There are 3 sizes : `S (#1, #4, #7, #10), M (#2, #5, #8, #11) and L (#3, #6, #9,
     - Real time checked locker
        - If other user select locker, locker must lock (You can't select locker) until other done process
     
-- Scoring criteria
+- :checkered_flag: Scoring criteria
 
     |Task|Must have|Score|
     |-|-|-|
@@ -66,7 +66,7 @@ There are 3 sizes : `S (#1, #4, #7, #10), M (#2, #5, #8, #11) and L (#3, #6, #9,
 | 4 |User select unit of #2 but this unit has been used by another user |2|false|-|-|-|-|-
 | 5 |User select unit of #12 and insert 400 baht for charge|12|true|145|400|400|0|true
 
-Acceptance agreement
+:ok_hand: Acceptance agreement
 ---
 
 1. Fork this github project.
@@ -74,7 +74,7 @@ Acceptance agreement
 3. Put your code in `exercise` folder.
 4. Publish your project on hosting, cloud or something that we can play it :) (We recommend  DigitalOcean, Firebase Hosting or Heroku)
 
-Any question?
+Any question? :see_no_evil::hear_no_evil::speak_no_evil:
 ---
 Open your issue from this link below
 
