@@ -38,10 +38,12 @@ There are 3 sizes : `S (#1, #4, #7, #10), M (#2, #5, #8, #11) and L (#3, #6, #9,
     - Unit and Integration testing such as
         - [phpunit](https://phpunit.de/)
         - [jest](https://jestjs.io/)
-  - UI testing with automate testing tools such as
-    - [cypress](https://www.cypress.io/)
-    - [Robot Framework](https://robotframework.org/)
-    - [katalon](https://www.katalon.com/)
+    - UI testing with automate testing tools such as
+       - [cypress](https://www.cypress.io/)
+       - [Robot Framework](https://robotframework.org/)
+       - [katalon](https://www.katalon.com/)
+    - Real time checked locker
+       - If other user select locker, locker must lock (You can't select locker) until other done process
     
 - Scoring criteria
    - Frontend - Must have!!! : 35 score
