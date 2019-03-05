@@ -1,4 +1,4 @@
-I GEAR GEEK : Coin Locker (コインロッカー)
+I GEAR GEEK: Coin Locker (コインロッカー)
 ===
 
 :warning: Please follow these conditions before code!
@@ -14,7 +14,7 @@ There are 3 sizes : `S (#1, #4, #7, #10), M (#2, #5, #8, #11) and L (#3, #6, #9,
     |:seven:|:eight:|:nine:|
     |:one::zero:|:one::one:|:one::two:|
     
-- Charge of locker usage (Based on unit size).
+- The charge of locker usage (Based on unit size).
     
     | |:clock1: first 60 minutes| :clock2: next minutes|
     |-|-|-|
@@ -22,9 +22,9 @@ There are 3 sizes : `S (#1, #4, #7, #10), M (#2, #5, #8, #11) and L (#3, #6, #9,
     |M|100 THB|50 THB|
     |L|200 THB|100 THB|
 
-- User can insert coin : `1 THB, 2 THB, 5 THB and 10 THB`
-- User can insert bill : `20 THB, 50 THB, 100 THB, 500 THB and 1000 THB`
-- Can't select same locker with other user in `Realtime`. (`User A` select unit of `#1` on another page then `User B` will see unit of `#1`, that is not available to select without refresh page.)
+- The user can insert coin: `1 THB, 2 THB, 5 THB, and 10 THB`
+- The user can insert bill: `20 THB, 50 THB, 100 THB, 500 THB and 1000 THB`
+- Can't select the same locker with other users in `Realtime`. (`User A` select unit of `#1` on another page then `User B` will see a unit of `#1`, that is not available to select without refresh page.)
 - :+1: Design User Interface (UI) of coin locker based on good user experience (UX). 
 - :+1: Focus on good [code quality](https://medium.com/@mkt_43322/why-is-code-quality-such-a-big-deal-for-developers-91bdace85d44).
   - Readability, consistency — how easy it is to read and understand sections of the code; this includes code clarity, simplicity, and documentation.
@@ -68,9 +68,9 @@ There are 3 sizes : `S (#1, #4, #7, #10), M (#2, #5, #8, #11) and L (#3, #6, #9,
 :ok_hand: Acceptance agreement
 ---
 
-1. Fork this github project.
+1. Fork this GitHub project.
 2. Open `issue` feature in your repository (Options > Features > Checked on Issues) [#Reference](https://softwareengineering.stackexchange.com/questions/179468/forking-a-repo-on-github-but-allowing-new-issues-on-the-fork)
-3. Put your code in `exercise` folder.
+3. Put your code in the `exercise` folder.
 4. Publish your project on hosting, cloud or something that we can play it :) (We recommend  DigitalOcean, Firebase Hosting or Heroku)
 
 Any question? :see_no_evil::hear_no_evil::speak_no_evil:
