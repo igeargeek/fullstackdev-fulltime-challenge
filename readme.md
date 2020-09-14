@@ -32,8 +32,8 @@ There are 3 sizes : `S (#1, #4, #7, #10), M (#2, #5, #8, #11) and L (#3, #6, #9,
   - Maintainability and extensibility — fixing, updating and improving software should be as simple as possible, not inherently complex.
 - Technologies
     - CSS Framework : Bootstrap
-  - Frontend : React or Vue
-  - Backend (RESTful API or [GraphQL](https://graphql.org/)) : Laravel (PHP) or Node.js
+  - Frontend : Vue or Nuxt.js
+  - Backend (RESTful API or [GraphQL](https://graphql.org/)) : Node.js
   - Database : mariaDB or MongoDB (We recommend [MongoDB Atlas](https://www.mongodb.com/cloud/atlas))
 - Bonus!!
     - Unit and Integration testing such as
