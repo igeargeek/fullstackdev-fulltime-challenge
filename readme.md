@@ -31,8 +31,8 @@ There are 3 sizes : `S (#1, #4, #7, #10), M (#2, #5, #8, #11) and L (#3, #6, #9,
   - Predictability, reliability, and robustness — software behavior should be predictable, and not prone to hidden bugs.
   - Maintainability and extensibility — fixing, updating and improving software should be as simple as possible, not inherently complex.
 - Technologies
-    - CSS Framework : Bootstrap
   - Frontend : Vue or Nuxt.js
+  - CSS Framework : Bootstrap or Vuetify
   - Backend (RESTful API or [GraphQL](https://graphql.org/)) : AdonisJS or Node.js
   - Database : mariaDB or MongoDB (We recommend [MongoDB Atlas](https://www.mongodb.com/cloud/atlas))
 - Bonus!!
